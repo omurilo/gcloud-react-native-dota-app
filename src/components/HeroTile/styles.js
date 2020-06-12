@@ -20,13 +20,15 @@ export const Overlay = styled(LinearGradient).attrs({
 `;
 
 export const Name = styled.Text`
-  font-size: 19px;
+  font-size: 17px;
   position: absolute;
   color: #fff;
   bottom: 0;
-  right: 0;
-  margin-right: 15px;
+  left: 0;
+  margin-left: 10px;
+  margin-right: 5px;
   margin-bottom: 5px;
+  text-align: left;
 `;
 
 export const Image = styled(FastImage)`
